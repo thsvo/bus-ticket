@@ -84,6 +84,7 @@ function allpagehide(status) {
     confirm("Are you sure you want to leave?");
   } else {
     document.getElementById("allpagehide").className = "hidden";
+    document.getElementById("showsuccesspage").classList.remove('hidden');
   }
 }
 
